@@ -3,7 +3,6 @@ import styled from "styled-components";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar"
 import { mobile } from "../responsive";
-import aboutcss from "./aboutcss.css";
 
 const Image = styled.img``;
 const Wrapper = styled.div`
@@ -20,13 +19,6 @@ const Info = styled.div`
     color: #59302d;
     ${mobile({padding: "5px 0px"})}
     `;
-const Card = styled.div`
-position: relative;
-    left: 80%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 8px;
-`;
-
 
 const About = () => {
 

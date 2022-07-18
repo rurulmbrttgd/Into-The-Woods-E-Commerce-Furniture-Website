@@ -199,8 +199,7 @@ const Cart = () => {
   }
 
   const {
-    cart: { products, total },
-    user: { currentUser }
+    cart: { products },
   } = useSelector((state) => state)
 
   useEffect(() => {
