@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar"
 import { mobile } from "../responsive";
 import aboutcss from "./aboutcss.css";
 
-const Image = styled.img``
+const Image = styled.img``;
 const Wrapper = styled.div`
 ${mobile({padding: "10px 0px"})}
 //background-image: url("https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1330&q=80");
@@ -20,7 +20,6 @@ const Info = styled.div`
     color: #59302d;
     ${mobile({padding: "5px 0px"})}
     `;
-
 const Card = styled.div`
 position: relative;
     left: 80%;
