@@ -211,12 +211,11 @@ const Cart = () => {
         });
         history.push("/success", {
           stripeData: res.data,
-          products: cart });
+          products: cart.total });
       } catch {}
     };
     stripeToken && makeRequest();
-    [stripeToken, cart.total, history]
-  },);
+  }, [stripeToken, cart.total, history]);
   return (
     <Container>
       <Navbar />
