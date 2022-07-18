@@ -21,6 +21,14 @@ const Info = styled.div`
     ${mobile({padding: "5px 0px"})}
     `;
 
+const Card = styled.div`
+position: relative;
+    left: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+`;
+
+
 const About = () => {
 
   return (
