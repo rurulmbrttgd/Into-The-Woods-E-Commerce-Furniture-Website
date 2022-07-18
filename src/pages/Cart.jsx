@@ -188,7 +188,7 @@ const Cart = () => {
   const [stripeToken, setStripeToken] = useState(null);
   const history = useHistory();
 
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
 
   const onToken = (token) => {
     setStripeToken(token);
@@ -196,7 +196,7 @@ const Cart = () => {
 
   const handleDelete = (data) => {
     dispatch(deleteProduct(data))
-  }
+  };
 
   const {
     cart: { products },
