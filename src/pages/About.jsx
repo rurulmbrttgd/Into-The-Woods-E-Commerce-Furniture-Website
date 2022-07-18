@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar"
 import { mobile } from "../responsive";
+import aboutcss from "./aboutcss.css";
 
 const Image = styled.img``
 const Wrapper = styled.div`
